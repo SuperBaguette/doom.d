@@ -58,6 +58,14 @@
 
 ;; fix almost completely transparent window
 (add-to-list 'default-frame-alist '(alpha 100))
+
+;;org-mode config
+(setq org-hide-emphasis-markers t)
+(use-package! org-bullets
+  :config
+  (add-hook 'org-mode-hook (lambda() (org-bullets-mode 1))))
+
+
 ;; Personal keybindings
 
 ;; Here are some additional functions/macros that could help you configure Doom:
