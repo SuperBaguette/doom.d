@@ -56,6 +56,8 @@
 ;; Uncomment the following line to start in fullscreen, maximized mode
 ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+;; fix almost completely transparent window
+(add-to-list 'default-frame-alist '(alpha 100))
 ;; Personal keybindings
 
 ;; Here are some additional functions/macros that could help you configure Doom:

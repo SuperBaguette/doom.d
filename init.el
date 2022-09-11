@@ -14,9 +14,6 @@
 ;;      Alternatively, press 'gd' (or 'C-c c d') on a module to browse its
 ;;      directory (for easy access to its source code).
 
-;; fix almost completely transparent window
-(add-to-list 'default-frame-alist '(alpha 100))
-
 (doom! :input
        ;;chinese
        ;;japanese
