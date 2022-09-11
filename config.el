@@ -42,13 +42,17 @@
             (set-fill-column 80)
             (display-fill-column-indicator-mode)
             (auto-fill-mode)))
-
 (add-hook 'c-mode-hook
           (lambda ()
             (set-fill-column 80)
             (display-fill-column-indicator-mode)
             (auto-fill-mode)))
 
+(add-hook 'python-mode-hook
+          (lambda ()
+            (set-fill-column 80)
+            (display-fill-column-indicator-mode)
+            (auto-fill-mode)))
 ;; Uncomment the following line to start in fullscreen, maximized mode
 ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
