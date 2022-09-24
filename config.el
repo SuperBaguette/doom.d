@@ -65,6 +65,9 @@
   :config
   (add-hook 'org-mode-hook (lambda() (org-bullets-mode 1))))
 
+;;set v-term time delay (the default value was 0.1s))
+(setq vterm-timer-delay nil)
+
 
 ;; Personal keybindings
 
